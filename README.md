@@ -1,12 +1,12 @@
 # siteminder-test-movies
 
 ## Usage
-1. download it
-2. unzip it
-3. enter into the directory
-4. open terminal, and go to same directory
-5. npm install
-6. npm run serve
+1. git clone it
+2. enter into the directory
+3. open terminal, and go to same directory
+4. npm install
+5. npm run serve
+--- you should see project run on port 7400
 
 ## Project setup
 ```
