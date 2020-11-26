@@ -1,4 +1,11 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import { createApp } from "vue";
+import "./scss/index.scss";
 
-createApp(App).mount('#app')
+import App from "./App.vue";
+import BaseButton from "./share/BaseButton.vue";
+
+const app = createApp(App);
+
+app.component("base-button", BaseButton);
+
+app.mount("#movie-app");

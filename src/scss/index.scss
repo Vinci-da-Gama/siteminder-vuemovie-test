@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+}
+
+.text-danger {
+    color: red;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.m0-auto {
+    margin: 0 auto;
+}
+
+@mixin placeholder-font {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #9C9C9C;
+}
+
+::-webkit-input-placeholder {
+    @include placeholder-font;
+}
+:-moz-placeholder {
+    @include placeholder-font;
+    opacity:  1;
+}
+::-moz-placeholder {
+    @include placeholder-font;
+    opacity:  1;
+}
+:-ms-input-placeholder {
+    @include placeholder-font;
+}
+::-ms-input-placeholder {
+    @include placeholder-font;
+}
+
+::placeholder {
+    @include placeholder-font;
+}
